@@ -118,16 +118,16 @@ const columns: ColumnDef<User>[] = [
           </DropdownMenuTrigger>
           <DropdownMenuContent align="end">
             <DropdownMenuLabel>Actions</DropdownMenuLabel>
-            <DropdownMenuItem onSelect={() => console.log("view", user)}>
+            <DropdownMenuItem onSelect={() => {}}>
               View
             </DropdownMenuItem>
-            <DropdownMenuItem onSelect={() => console.log("edit", user)}>
+            <DropdownMenuItem onSelect={() => {}}>
               Edit
             </DropdownMenuItem>
             <DropdownMenuSeparator />
             <DropdownMenuItem
               variant="destructive"
-              onSelect={() => console.log("delete", user)}
+              onSelect={() => {}}
             >
               Delete
             </DropdownMenuItem>
