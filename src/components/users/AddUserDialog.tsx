@@ -59,7 +59,6 @@ export function AddUserDialog({ open, onOpenChange }: AddUserDialogProps) {
   })
 
   function onSubmit(_data: AddUserForm) {
-    // form submitted — wire to real API here
     onOpenChange(false)
     form.reset(defaultValues)
   }
