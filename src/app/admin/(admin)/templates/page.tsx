@@ -168,7 +168,7 @@ function ComponentShowcase() {
           </CardHeader>
           <CardContent className="flex flex-col gap-3">
             <Input defaultValue="Filled value" />
-            <Input placeholder="Placeholder text" />
+            <Input placeholder="Search templates..." />
             <Input disabled placeholder="Disabled" />
           </CardContent>
         </Card>
